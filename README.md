@@ -5,6 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Environment Variables
 Please add REACT_APP_SERVER=http://localhost:3001 to run the project on local server.
 
+## Node version 17 or lower
+Please revome --openssl-legacy-provider  in package.json file in scripts -> start if deployment crashes. 
+
 ## Available Scripts
 
 In the project directory, you can run:
